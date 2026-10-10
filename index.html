@@ -1,3 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+<head>
+    <meta charset="UTF-8">
+    <title>My Ocean Life Tracker
+        </title>
+</head>
+<body>
+    <h1> Ocean Tracker</h1>
+<p> "Find marine animals and mark the ones you have spotted!" </p>
+<input type="search" id="search" placeholder="Search for marine animals...">
+<div id="grid"></div>
+<ul>
+    <li>Californian Sea Lion</li>
+    <li>Vaquita</li>
+</ul>
+</div>
+<script src="app.js"></script>
+</body>
+    </title>
+</head>
+<style>
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #f3fbff;
+    color: #0b2a3c;
+    margin: 0;
+    padding: 20px;
+}
+.card {
+    background: white;
+    border: 1px solid #cfe6f1;
+    border-radius: 16px;
+    padding: 20px;
+
+}
+.card h2 {
+    margin: 0 0 6px;
+    font-size: 1.1rem;
+}
+</style>
+</html>
